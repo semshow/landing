@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  color: #3e3e3e;
+
+}
+
+.logo {
+  float: left;
+  width: 35%
+}
+
+.header {
+  background-color: #eb5a3d;
+  font-family: 'Seymour One', sans-serif;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.logo img {
+  width: 35%;
+}
+
+.phone {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.phone span {
+  margin-right: 15%;
+}
+
+.call:link {
+  text-decoration: none;
+  color: #3e3e3e;
+}
+
+.call:visited {
+  text-decoration: none;
+  background-color: #3e3e3e;
+}
+
+.call:hover {
+  text-decoration: none;
+  background-color: #eb5a3d;
+  color: white;
+  border-color: #eb5a3d;
+}
+
+.call:active {
+  text-decoration: none;
+}
+
+.call {
+  background-color: white;
+  padding: 5px;
+  border: 2px solid #3e3e3e;
+  border-radius: 10px;
+}
+
+/***********MAIN***********/
+.wrap {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.
+.slogan {
+  text-align: center;
+}
+
+.main-foto img {
+  width: 100%;
+}
+
+.main-foto {
+  margin-right: 50px;
+}
+
+.title {
+  width: 100%;
+  font-family: 'Seymour One', sans-serif;
+  font-size: 60px;
+  color: #3e3e3e;
+}
+
+.buy-button {
+  font-family: 'Seymour One', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.adv {
+  text-align: center;
+  font-size: 25px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.right-info {
+  margin-left: 40px;
+  flex: 1;
+}
+
+.left-info {
+  flex: 1;
+}
+
+
+p {
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.menu {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu img {
+  width: 100%;
+}
+
+.menu-item {
+  margin-right: 30px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #eb5a3d;
+  font-family: 'Seymour One', sans-serif;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-link {
+  display: block;
+}
+
+.footer-link:link {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer-link:visited {
+  text-decoration: none;
+  background-color: #3e3e3e;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  background-color: #eb5a3d;
+  color: #3e3e3e;
+  border-color: #eb5a3d;
+}
+
+.footer-link:active {
+  text-decoration: none;
+}
+
+.footer-phone {
+  padding-top: 20px
+}
+
+.social {
+  width: 80px;
+}
+
+.social img {
+  width: 100%;
+}
