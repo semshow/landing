@@ -44,16 +44,20 @@ body {
 .call:active {
   text-decoration: none;
 }
+
 .logo {
   margin-top: 30px;
   flex: 1;
 }
+
 .logo img {
   width: 75%;
 }
+
 .phone {
   flex: 3;
 }
+
 .right-header {
   flex: 2;
   margin-right: 30px;
