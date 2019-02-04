@@ -10,11 +10,9 @@ body {
 }
 
 .header {
-  max-height: 80px;
   background-color: #eb5a3d;
   font-family: 'Seymour One', sans-serif;
   color: white;
-  font-size: 25px;
   text-align: center;
   margin-bottom: 85px;
   display: flex;
@@ -46,8 +44,7 @@ body {
 }
 
 .logo {
-  margin-top: 30px;
-  flex: 1;
+  flex: 0.7gits staus;
 }
 
 .logo img {
@@ -56,15 +53,15 @@ body {
 
 .phone {
   flex: 3;
+  font-size: 2em;
 }
 
 .right-header {
   flex: 2;
-  margin-right: 30px;
 }
 
 .call {
-  display: block;
+  display: inline-block;
   padding: 10px;
   background-color: white;
   border: 2px solid #3e3e3e;
@@ -169,6 +166,7 @@ h2 {
   width: 30%;
   margin-right: 30px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .footer {
