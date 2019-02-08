@@ -44,7 +44,7 @@ body {
 }
 
 .logo {
-  flex: 0.7gits staus;
+  flex: 0.7;
 }
 
 .logo img {
@@ -90,10 +90,13 @@ body {
 }
 
 .title {
+  text-align: center;
   width: 100%;
   font-family: 'Seymour One', sans-serif;
   font-size: 60px;
-  color: #3e3e3e;
+  color: white;
+  text-shadow: 1px 1px 2px #3e3e3e;
+
 }
 
 .buy-button {
